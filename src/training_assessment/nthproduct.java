@@ -30,8 +30,8 @@ public class nthproduct {
 
 		WebElement searchButton=driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/header/div[1]/div[2]/form/div/button"));
 		searchButton.click();
-		WebElement lap=driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div["+num+"]/div/div/div/a/div[2]/div[1]/div[2]"));
-		lap.click();
+		WebElement nth=driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div["+num+"]/div/div/div/a/div[2]/div[1]/div[2]"));
+		nth.click();
 		
 
 
